@@ -9,10 +9,10 @@ I have taken a Dataset from Kaggle of Rossman Store Sales to predict the Sales o
  * sample_submission.csv - a sample submission file in the correct format
  
 # Data fields taken now(Can change them according to store requirement)
- Id - an Id that represents a (Store, Date) duple within the test set
- Store - a unique Id for each store
- Sales - the turnover for any given day (this is what you are predicting)
- Customers - the number of customers on a given day
+ Id - an Id that represents a (Store, Date) duple within the test set.
+ Store - a unique Id for each store.
+ Sales - the turnover for any given day (this is what you are predicting).
+ Customers - the number of customers on a given day.
  Open - an indicator for whether the store was open: 0 = closed, 1 = open
  StateHoliday - indicates a state holiday. Normally all stores, with few exceptions, are closed on state holidays. Note that all schools are closed on public holidays and weekends. a = public holiday, b = Easter holiday, c = Christmas, 0 = None
  SchoolHoliday - indicates if the (Store, Date) was affected by the closure of public schools
